@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Package</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- register -->
+
+    <div class="registerform" id="rform">
+        <form action="" method="post" class="form">
+            <h1 class="Reg">
+                Register
+            </h1>
+            <input type="text" placeholder="Username" name="user" id="user" required>
+            <input type="number" placeholder="Mobile No" name="number" id="number" required >
+            <input type="password" name="pass" placeholder="4 Digit OTP" id="otp" required>
+            <button id="sendotp">Send</button>
+            <button id="register">Register</button>
+        </form>
+    </div>
+
+    <!-- register end -->
+    
+    <div class="container" id="container">
+       
+        <div class="infocontainer">
+            <div class="info">
+
+                <div class="img" id="imgupload" style="margin-left: 10px;">
+                    <i class="fa-solid fa-user" id="usericon"></i>
+                    <img src="" id="profilepic" alt="">
+                </div>
+
+                <div class="namenum" style="display: flex;flex-direction: column;margin-left: 8px;margin-top: 2px;">
+                    <p id="name"></p>
+                    <p id="num"></p>
+                </div>    
+            </div>
+            <div class="notification">
+                <button id="login">Register</button>
+                <i class="fa-solid fa-bell noti" ></i>
+            </div>
+        </div>
+            <div class="welcome">
+                <!-- <img src=""class="wlcm" alt=""> -->
+                <div class="mssg"><p class="goodmssg">Enjoy your best internet offers :)</p></div>
+            </div>
+            <hr>
+            <div class="recharge">
+                <h2>Recharge Now</h2>
+                <div class="rechargeinput">
+                    <input type="number" placeholder="Enter Amount " id="tk" required>
+                    <button id="rtk" class="a">Recharge</button>
+                </div>             
+            </div>
+
+            <div class="amount">
+                <div class="rechargeamount">
+                    <h3 style="color: green; font-weight: bold; font-size: 20px;margin-bottom: 5px;">Balance</h3>                   
+                    <h1 id="amountvalue" style="margin-top: 3px; color: rgb(138, 13, 13); font-weight: bold; font-size: 30px; ">0.0TK</h1>
+
+                </div>
+                <div class="internetamount">
+                   <div class="int" >
+                        <i class="fa-solid fa-globe" style="margin-right: 5px; color: blue; font-size: 28px;"></i>
+                        <p style="font-size: 25px; font-weight: bold;">Internet</p>
+                   </div>
+                    <h3 id="internetvalue" style="font-weight: bold; font-size: 22px; color: rgb(0, 0, 0);">0 MB</p></h3>
+                    <p id="day" style="font-size: 18px ; color: rgb(109, 15, 15); font-weight: bold; margin-top: 5px;">0 Day</p>
+                </div>
+            </div>
+
+            <div class="internetsection">
+                <div class="buy">
+                    <h1 class="data" id="data1">1 GB</h1>
+                    <p class="valid" id="valid1">1 Day</p>
+                    <button class="buydata a" id="buydata1">9TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data2">3 GB</h1>
+                    <p class="valid" id="valid2">7 Day</p>
+                    <button class="buydata a" id="buydata2">67TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data3">5 GB</h1>
+                    <p class="valid" id="valid3">7 Day</p>
+                    <button class="buydata a" id="buydata3">121TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data4">10 GB</h1>
+                    <p class="valid" id="valid4">15 Day</p>
+                    <button class="buydata a" id="buydata4">310TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data5">15 GB</h1>
+                    <p class="valid" id="valid5">30 Day</p>
+                    <button class="buydata a" id="buydata5">400TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data6">30 GB</h1>
+                    <p class="valid" id="valid6">15 Day</p>
+                    <button class="buydata a" id="buydata6">475TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data7">30 GB</h1>
+                    <p class="valid" id="valid7">30 Day</p>
+                    <button class="buydata a" id="buydata7">550TK</button>
+                </div>
+                <div class="buy">
+                    <h1 class="data" id="data8">40 GB</h1>
+                    <p class="valid" id="valid8">Unlimited</p>
+                    <button class="buydata a" id="buydata8">1757TK</button>
+                </div>
+            </div>
+    </div>
+
+    <!-- mainpage end -->
+
+
+
+
+
+    <script src="app.js"></script>   
+</body>
+</html> 
