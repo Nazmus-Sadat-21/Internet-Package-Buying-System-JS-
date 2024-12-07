@@ -90,6 +90,8 @@ register.addEventListener("click",(e)=>{
             username.innerHTML=user.value;
             number.innerHTML=mobileno.value;  
             login.disabled=true;
+            login.innerHTML="Registered"
+            login.style.backgroundColor=" rgba(4, 94, 4, 0.914)"
         },500)
     }   
 });
