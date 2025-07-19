@@ -1,4 +1,4 @@
-const username = document.getElementById("name");
+const username = document.getElementById("name");    
 const number = document.getElementById("num");
 const user = document.getElementById("user");
 const mobileno= document.getElementById("number");
